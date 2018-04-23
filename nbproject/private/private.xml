@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/LabInfo01/Documents/practicaMireya/UsuariosServlet/web/altaUsuarios.html</file>
+            <file>file:/C:/Users/LabInfo01/Documents/practicaMireya/UsuariosServlet/src/java/com/usuario/db/ConexionSingleton.java</file>
+            <file>file:/C:/Users/LabInfo01/Documents/practicaMireya/UsuariosServlet/src/java/com/usuario/controller/EliminarUsuarioServlet.java</file>
+            <file>file:/C:/Users/LabInfo01/Documents/practicaMireya/UsuariosServlet/src/java/com/usuario/controller/ActualizarUsuarioServletVista.java</file>
+            <file>file:/C:/Users/LabInfo01/Documents/practicaMireya/UsuariosServlet/web/listaUsuario.html</file>
+            <file>file:/C:/Users/LabInfo01/Documents/practicaMireya/UsuariosServlet/src/java/com/usuario/controller/ActualizarUsuarioServlet.java</file>
+            <file>file:/C:/Users/LabInfo01/Documents/practicaMireya/UsuariosServlet/src/java/com/usuario/controller/CrearUsuarioServlet.java</file>
+            <file>file:/C:/Users/LabInfo01/Documents/practicaMireya/UsuariosServlet/src/java/com/usuarios/domain/Usuario.java</file>
+            <file>file:/C:/Users/LabInfo01/Documents/practicaMireya/UsuariosServlet/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/LabInfo01/Documents/practicaMireya/UsuariosServlet/web/index.html</file>
+            <file>file:/C:/Users/LabInfo01/Documents/practicaMireya/UsuariosServlet/src/java/com/usuario/service/UsuarioServiceImpl.java</file>
+            <file>file:/C:/Users/LabInfo01/Documents/practicaMireya/UsuariosServlet/src/java/com/usuario/controller/ListarUsuarioServlet.java</file>
+            <file>file:/C:/Users/LabInfo01/Documents/practicaMireya/UsuariosServlet/src/java/com/usuario/dao/UsuarioDaoImpl.java</file>
+        </group>
+    </open-files>
+</project-private>

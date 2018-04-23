@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <!--primer servlet para dar craer usuario-->
+    <servlet>
+        <servlet-name>CrearUsuarioServlet</servlet-name>
+        <servlet-class>com.usuario.controller.CrearUsuarioServlet</servlet-class>
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>CrearUsuarioServlet</servlet-name>
+        <url-pattern>/CrearUsuarioServlet</url-pattern>
+    </servlet-mapping>
+    <!--Segundo servlet para  listar usuario-->
+    <servlet>
+        <servlet-name>ListarUsuarioServlet</servlet-name>
+        <servlet-class>com.usuario.controller.ListarUsuarioServlet</servlet-class>
+    </servlet>
+    <!--Mapear el servlet para el usuario final. el nombre de servlet debe ser lo mismo -->
+    <servlet-mapping>
+        <servlet-name>ListarUsuarioServlet</servlet-name>
+        <url-pattern>/ListarUsuarioServlet</url-pattern>
+    </servlet-mapping>
+    
+    <!--Servlet Eliminar Usuario-->
+     <servlet>
+        <servlet-name> EliminarUsuarioServlet</servlet-name>
+        <servlet-class>com.usuario.controller.EliminarUsuarioServlet</servlet-class>
+    </servlet>
+    <!--Mapear el servlet para el usuario final. el nombre de servlet debe ser lo mismo -->
+    <servlet-mapping>
+        <servlet-name>EliminarUsuarioServlet</servlet-name>
+        <url-pattern>/EliminarUsuarioServlet</url-pattern>
+    </servlet-mapping>
+    
+    <!--Seervlet Actualizar Usuario-->
+     <servlet>
+        <servlet-name> ActualizarUsuarioServlet</servlet-name>
+        <servlet-class>com.usuario.controller.ActualizarUsuarioServlet</servlet-class>
+    </servlet>
+    <!--Mapear el servlet para el usuario final. el nombre de servlet debe ser lo mismo -->
+    <servlet-mapping>
+        <servlet-name>ActualizarUsuarioServlet</servlet-name>
+        <url-pattern>/ActualizarUsuarioServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ActualizarUsuarioServletVista</servlet-name>
+        <servlet-class>com.usuario.controller.ActualizarUsuarioServletVista</servlet-class>
+    </servlet>
+    <!--Mapear el servlet para el usuario final. el nombre de servlet debe ser lo mismo -->
+    <servlet-mapping>
+        <servlet-name>ActualizarUsuarioServletVista</servlet-name>
+        <url-pattern>/ActualizarUsuarioServletVista</url-pattern>
+    </servlet-mapping>
+    
+    
+    <!--Obtener un elemento -->
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

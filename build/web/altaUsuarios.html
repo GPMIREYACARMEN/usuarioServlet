@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Alta de Usuario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- agregar archivo d boostrap  -->
+        <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+        <!-- agregar archivo d script  -->
+        <script src="resources/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            <h1> Alta de Usuario</h1> 
+            <form id="idForm" action="CrearUsuarioServlet" method="post"> 
+                <div class="form-group"> 
+                    <label for="usrUsuario"> Nombre de Usuario</label>
+                    <input type="text" name="usr" id="usrUsuario" placeholder="Nombre de Usuario">
+                </div>
+                
+                 <div class="form-group"> 
+                    <label for="pwdUsuario"> Contraseña de Usuario</label>
+                    <input type="password" name="pwd" id="pwdUsuario" placeholder="Contraseña de Usuario">
+                </div>
+                <button type="submit" class="btn btn-primary" > Guardar </button>
+                <a class="btn btn-info" role="button" href="index.html"> Principal</a>
+            </form>
+            
+            
+            
+            <!--<a class="btn btn-primary" role="button" href="#"> Agregar Usuario </a> -->
+            
+        </div>
+    </body>
+</html>
